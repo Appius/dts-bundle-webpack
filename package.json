@@ -1,0 +1,24 @@
+{
+  "name": "dts-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugin for creating declaration bundle based on dts-bundle library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Appius/dts-webpack-plugin.git"
+  },
+  "keywords": [
+    "dts-bundle",
+    "webpack",
+    "typescript"
+  ],
+  "author": "Appius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Appius/dts-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Appius/dts-webpack-plugin#readme",
+  "dependencies": {
+    "dts-bundle": "^0.7.3"
+  }
+}
