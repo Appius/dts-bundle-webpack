@@ -7,17 +7,17 @@ This is wrapper for [dts-bundle plugin](https://github.com/TypeStrong/dts-bundle
 
 ## Installation
 ```
-npm i dts-webpack-plugin --save-dev
+npm i dts-bundle-webpack --save-dev
 ```
 
 ## Usage
 ```js
-const DtsWebpackPlugin = require('dts-webpack-plugin')
+const DtsBundleWebpack = require('dts-bundle-webpack')
 
 // webpack config
 {
   plugins: [
-    new DtsBundlePlugin({options})
+    new DtsBundleWebpack({options})
   ]
 }
 ```
