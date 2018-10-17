@@ -10,7 +10,7 @@ var DtsBundlePlugin = (function () {
     DtsBundlePlugin.prototype.apply = function (compiler) {
         const _this = this;
 
-        compiler.plugin('done', function() {
+        compiler.hooks.done.tap({ name: 'DtsBundlePlugin' }, function() {
             dts.bundle(_this.options);
         });
     };
