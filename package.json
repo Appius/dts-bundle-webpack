@@ -1,6 +1,6 @@
 {
   "name": "dts-bundle-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack plugin for creating declaration bundle based on dts-bundle library",
   "main": "index.js",
   "repository": {
